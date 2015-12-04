@@ -1,0 +1,95 @@
+* {
+  background: url("https://www.wikipediatldr.com/static/images/background_default.jpg")no-repeat center center fixed;
+  background-size: cover;
+  ;
+  box-sizing: border-box;
+}
+.title h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Lily Script One";
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-size: 70px;
+  color: black;
+}
+.searchBox {
+  text-align: center;
+  position: relative;
+  width: 300px;
+  margin: 50px auto;
+}
+#help {
+  margin-top: 20px;
+  font-size: 22px;
+  color: black;
+  font-family: "Lily Script One";
+}
+.custom-icon {
+  font-size: 4em;
+  color: #D96F32;
+}
+.custom-icon:hover {
+  cursor: pointer;
+}
+.searchInput {
+  position: relative;
+  width: 0px;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 20px;
+  border: 4px solid #D96F32;
+  font-size: 20px;
+  outline: 0;
+}
+.hide {
+  position: absolute;
+  left: -10000px;
+}
+.searchInput-show {
+  height: 40px;
+  width: 300px;
+}
+.icon-close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  opacity: 0;
+  font-size: 1.4em;
+  transition: opacity 1s ease-in 0.5s;
+}
+.icon-close-show {
+  opacity: 1;
+}
+.icon-close:hover {
+  cursor: pointer;
+}
+.row a {
+  text-decoration: none;
+}
+.row .des {
+  margin-top: 50px;
+  padding: 30px;
+  background: white;
+  text-decoration: none;
+}
+.row .des:hover {
+  background-color: #bbb!important;
+  box-shadow: -8px 0px 0px 0px #D96F32;
+}
+.row .des > .result-title:hover {
+  background-color: #bbb!important;
+}
+.snippet:hover {
+  background-color: #bbb!important;
+}
+.result-title {
+  background: transparent;
+  font-size: 30px;
+}
+.snippet {
+  background: transparent;
+  color: black;
+  font-size: 12pt;
+  margin: 15px 0px 0px 0px;
+}
